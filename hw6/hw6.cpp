@@ -127,8 +127,8 @@ int main(int argc, char **argv) {
 
       srand(time(NULL));
       auto [len_avg_time, lcs_avg_time] = ExecuteAndGetAvgTime(kXLen, kYLen, kTests);
-      std::cout << "LCS-Length: " << len_avg_time << " us" << std::endl;
-      std::cout << "Print-LCS: " << lcs_avg_time << " us" << std::endl;
+      std::cout << "LCS-Length: " << len_avg_time << " s" << std::endl;
+      std::cout << "Print-LCS: " << lcs_avg_time << " s" << std::endl;
       std::cout << std::endl;
       break;
     }
